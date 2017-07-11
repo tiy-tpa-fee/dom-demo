@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  background-image: url('images/led.png');
+  background-size: 325px;
+  height: 200px;
+  width: 50px;
+}
+
+figure.red {
+  background-position: 0 0;
+}
+
+figure.orange {
+  background-position: -50px 0;
+}
+
+figure.yellow {
+  background-position: -110px 0;
+}
+
+figure.green {
+  background-position: -162px 0;
+}
+
+button {
+  margin-top: 2em;
+  font-size: 2em;
+  border: none;
+  background-color: #a7e3cb;
+  color: #559c7f;
+  border-radius: 5px;
+  padding: 10px;
+}
